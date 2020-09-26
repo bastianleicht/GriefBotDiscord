@@ -1,0 +1,23 @@
+{
+  "name": "griefbotdiscord",
+  "version": "1.0.0",
+  "description": "A Discord Bot that allows you to grief a Server!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/routerabfrage/GriefBotDiscord.git"
+  },
+  "author": "routerabfrage",
+  "license": "https://github.com/routerabfrage/LICENSE",
+  "bugs": {
+    "url": "https://github.com/routerabfrage/GriefBotDiscord/issues"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "enmap": "^5.7.1",
+    "better-sqlite3": "^7.0.1"
+  }
+}
