@@ -1,13 +1,13 @@
 # DiscordGriefBot
 
-This discord bot was made wo grief Servers!
+This discord bot was made to grief Servers!
 
 ## Installation
 
 ```bash
-npm i
+npm install
 ```
-rename ``config.json.example`` to  ``config.json`` and fill in your settings.
+rename ``config.json.example`` to  ``config.json`` and add your Token.\
 You can get your Bot Token from the [Discord Developer Portal](https://discord.com/developers/applications).
 
 ## Start
