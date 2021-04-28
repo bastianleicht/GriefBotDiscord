@@ -27,6 +27,8 @@ leave                                 Verlässt den Discord Server.
 rolespam { amount }                   Erstellt eine Anzahl an Rollen welche random Unicode Charaktere als Namen haben.
 channelspam { amount }                Erstellt eine Anzahl an Channeln welche random Unicode Charaktere als Name haben.
 
+massdm { nachricht }                  Sendet eine nachricht an alle User des Servers.
+
 ban { @user }                         Bannt den verlinkten User.
 ban all                               Bannt alle User von dem Discord.
 
