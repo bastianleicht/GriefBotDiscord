@@ -7,12 +7,16 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "license": "BSD-2-Clause",
+  "author": {
+    "name": "Bastian Leicht",
+    "email": "mail@bastianleicht.de",
+    "url": "https://bastianleicht.de"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/routerabfrage/GriefBotDiscord.git"
   },
-  "author": "Bastian Leicht",
-  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/routerabfrage/GriefBotDiscord/issues"
   },
