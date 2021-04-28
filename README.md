@@ -23,6 +23,7 @@ activate                              Aktiviert alle Commands für dich.
 deactivate                            Deaktiviert alle Commands für dich.
 eval { code }                         Führt JS code aus.
 leave                                 Verlässt den Discord Server.
+prune                                 Entfernt (30 Tage) inaktive User.
 
 rolespam { amount }                   Erstellt eine Anzahl an Rollen welche random Unicode Charaktere als Namen haben.
 channelspam { amount }                Erstellt eine Anzahl an Channeln welche random Unicode Charaktere als Name haben.
