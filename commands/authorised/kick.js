@@ -1,7 +1,7 @@
 /*
- *   Copyright (c) 2021 Bastian Leicht
- *   All rights reserved.
- *   https://bastianleicht.de/license
+ * Copyright (c) 2020-2021, Bastian Leicht <mail@bastianleicht.de>
+ *
+ * PDX-License-Identifier: BSD-2-Clause
  */
 // jshint esversion: 8
 const Discord = require('discord.js');

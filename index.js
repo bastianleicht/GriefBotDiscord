@@ -1,7 +1,7 @@
 /*
- *   Copyright (c) 2021 Bastian Leicht
- *   All rights reserved.
- *   https://bastianleicht.de/license
+ * Copyright (c) 2020-2021, Bastian Leicht <mail@bastianleicht.de>
+ *
+ * PDX-License-Identifier: BSD-2-Clause
  */
 // jshint esversion: 8
 const Discord = require("discord.js");
@@ -24,18 +24,16 @@ client.unicodeText = '႘◮㉓₋−⓫ʙ◥༎៯ᕾᮜཌྷ⬑༨࢟൵⑼ඓ�
 
 function getDate() {
     let date = new Date();
-    let year = date.getYear() + 1900; //Get current year
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; //Array of months
-    let month = months[date.getMonth()]; // Get month index
-    let day = date.getDate().toString().length < 2 ? "0" + date.getDate() : date.getDate(); //Get current day of month 1-30
-    let hour = date.getHours().toString().length < 2 ? "0" + date.getHours() : date.getHours(); //Get current hour of the day
-    let minute = date.getMinutes().toString().length < 2 ? "0" + date.getMinutes() : date.getMinutes(); //Get current minute of the hour
-    let second = date.getSeconds().toString().length < 2 ? "0" + date.getSeconds() : date.getSeconds(); //Get current second of the minute
-    return year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second; //Return formatted string
+    let year = date.getYear() + 1900;
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let month = months[date.getMonth()];
+    let day = date.getDate().toString().length < 2 ? "0" + date.getDate() : date.getDate();
+    let hour = date.getHours().toString().length < 2 ? "0" + date.getHours() : date.getHours();
+    let minute = date.getMinutes().toString().length < 2 ? "0" + date.getMinutes() : date.getMinutes();
+    let second = date.getSeconds().toString().length < 2 ? "0" + date.getSeconds() : date.getSeconds();
+    return year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
 }
-
-console.log("------------------------------------------------");
-
+// Laden der Events
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error;
     files.forEach((file) => {
@@ -47,6 +45,7 @@ fs.readdir("./events/", (err, files) => {
     });
 });
 
+//Laden aller Commands
 fs.readdir("./commands/", async (err, files) => {
     files.forEach((file) => {
         if (!file.endsWith(".js")) return;
