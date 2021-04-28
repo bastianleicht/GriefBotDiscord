@@ -60,4 +60,4 @@ edit role { @role } { name }          Editiert die verlinkte Rolle auf den Namen
 Pull requests sind immer willkommen. Wenn du größere änderungen hast, erstelle bitte eine issue, damit man sich nochmal darüber unterhalten kann.
 
 ## License
-[LICENSE](https://bastianleicht.de/license)
+GriefBotDiscord ist durch eine 2-clause BSD Lizenz lizenziert.
