@@ -1,17 +1,16 @@
 # Discord Grief Bot
-
-This discord bot was made to grief Servers!
+Dieser Bot wurde programmiert um Discord Server zu griefen. Er verfügt über viele Features und Commands (unten gelistet).
+Falls du einen Vorschlag hast, lass es mich gerne wissen.
 
 ## Installation
-
 ```bash
 npm install
 ```
+
 Benenne ``config.json.example`` in  ``config.json`` um und füge deinen Bot Token ein. Dort kannst du auch den Prefix anpassen.
 Den Bot Token kannst du im [Discord Developer Portal](https://discord.com/developers/applications) kopieren oder (wenn du es noch nicht hast) einen Bot erstellen.
 
 ## Start
-
 ```bash
 npm start
 ```
