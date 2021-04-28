@@ -17,10 +17,20 @@ module.exports.run = async (client, message, args) => {
             });
             break;
         case 'roles':
-            let roles = message.guild.roles.cache;
-            message.guild.roles.cache.forEach(role => {
-                role.delete().catch(console.error);
-            });
+            try {
+                let roles = message.guild.roles.cache;
+                roles.forEach(role => {
+                    //role.delete();
+                    if(role.rawPosition > 0 && role.rawPosition < (roles.size - 1)) {
+                        role.delete();
+                    }
+                    //if(role.id !== message.guild.id) {
+                    //    roles.find(r => r.name === role.name).delete();
+                    //}
+                });
+            } catch (e) {
+                console.error(e.stack)
+            }
             break;
         case 'channel':
             let channel = message.content.split(" ")[2];
