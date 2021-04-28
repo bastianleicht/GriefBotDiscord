@@ -17,7 +17,7 @@ module.exports.run = async (client, message, args) => {
     } else if(args[0] === 'all' && args[1] === 'roles') {
         let name = message.content.split(" ")[3];
         let roles = message.guild.roles.cache;
-        roles.forEach(role=>{
+        roles.forEach(role => {
             role.setName(name).catch(() => { });
         });
     } else if(args[0] === 'channel') {

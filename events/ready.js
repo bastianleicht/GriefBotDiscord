@@ -10,8 +10,4 @@ const start = Date.now();
 module.exports = (client) => {
     console.log("Initialized in " + (Date.now() - start) + "ms");
     console.log(`Logged in as ${client.user.tag}!`);
-
-    //client.user.setActivity(`Discord JS Bot Base | ${config.version}`, {
-    //    type: "PLAYING"
-    //});
 };
