@@ -10,14 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/routerabfrage/GriefBotDiscord.git"
   },
-  "author": "routerabfrage",
-  "license": "https://github.com/routerabfrage/LICENSE",
+  "author": "Bastian Leicht",
+  "license": "https://bastianleicht.de/license",
   "bugs": {
     "url": "https://github.com/routerabfrage/GriefBotDiscord/issues"
   },
   "dependencies": {
+    "better-sqlite3": "^7.0.1",
     "discord.js": "^12.3.1",
     "enmap": "^5.7.1",
-    "better-sqlite3": "^7.0.1"
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.7"
   }
 }
