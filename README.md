@@ -19,8 +19,8 @@ npm start
 ## Commands
 ```
 init {secret key} //Allows you to initialise to the bot
-gb activate //activates the bot commands
-gb deactivate //deactivates all commands
+activate //activates the bot commands
+deactivate //deactivates all commands
 ban all //bans all users from the discord
 kick all //kicks all users from the discord
 delete channeles //deletes all the channels
@@ -41,4 +41,4 @@ edit role {@role} {name} //edits the mentioned role to the decared name
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[LICENSE](https://github.com/routerabfrage/License)
+[LICENSE](https://bastianleicht.de/license)
