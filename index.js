@@ -1,6 +1,7 @@
 /*
  *   Copyright (c) 2020 routerabfrage
  *   All rights reserved.
+ *   https://github.com/routerabfrage/License
  */
 // jshint esversion: 8
 const config = require("./config.json");
@@ -10,6 +11,7 @@ const start = Date.now();
 
 client.on("ready", () => {
   console.log(getDate() + " Initialized in " + (Date.now() - start) + "ms");
+  console.log('Logged in as ' + client.user.tag);
 });
 
 const secretKey = config.secret;
