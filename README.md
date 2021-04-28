@@ -1,4 +1,4 @@
-# DiscordGriefBot
+# Discord Grief Bot
 
 This discord bot was made to grief Servers!
 
@@ -7,8 +7,8 @@ This discord bot was made to grief Servers!
 ```bash
 npm install
 ```
-rename ``config.json.example`` to  ``config.json`` and add your Token.\
-You can get your Bot Token from the [Discord Developer Portal](https://discord.com/developers/applications).
+Benenne ``config.json.example`` in  ``config.json`` um und füge deinen Bot Token ein. Dort kannst du auch den Prefix anpassen.
+Den Bot Token kannst du im [Discord Developer Portal](https://discord.com/developers/applications) kopieren oder (wenn du es noch nicht hast) einen Bot erstellen.
 
 ## Start
 
@@ -18,27 +18,45 @@ npm start
 
 ## Commands
 ```
-init {secret key} //Allows you to initialise to the bot
-activate //activates the bot commands
-deactivate //deactivates all commands
-ban all //bans all users from the discord
-kick all //kicks all users from the discord
-delete channeles //deletes all the channels
-delete roles //deletes all roles
-clear //cleares all the messages in one channel
-clear all //cleares all the messages in one channel
-kick {@user} //kicks the declared user
-ban {@user} //bans the declared user
-delete channel //deletes the current Channel
-delete role {@role} //deletes the mentioned role
-edit all channels {name} //edits all channels to the decared name
-edit all roles {name} //edits all roles to the decared name
-edit channel {#channel} {name} //edits the mentioned channel to the decared name
-edit role {@role} {name} //edits the mentioned role to the decared name
+auth {secret key}                     Initialisiert dich im Bot.
+listening                             Dumpt einen Array aller derzeit Initialisierten User in der Console.
+activate                              Aktiviert alle Commands für dich.
+deactivate                            Deaktiviert alle Commands für dich.
+eval { code }                         Führt JS code aus.
+leave                                 Verlässt den Discord Server.
+
+rolespam { amount }                   Erstellt eine Anzahl an Rollen welche random Unicode Charaktere als Namen haben.
+channelspam { amount }                Erstellt eine Anzahl an Channeln welche random Unicode Charaktere als Name haben.
+
+ban { @user }                         Bannt den verlinkten User.
+ban all                               Bannt alle User von dem Discord.
+
+kick { @user }                        Kickt den verlinkten User.
+kick all                              Kickt alle User von dem Discord.
+
+crypt all channels                    Benennt alle Channel in random Unicode Charaktere um.
+crypt all roles                       Benennt alle Rollen in random Unicode Charaktere um.
+crypt role { @role }                  Benennt die verlinkte Rolle in random Unicode Charaktere um.
+crypt channel { #channel }            Benennt den verlinkten Channel in random Unicode Charaktere um.
+
+delete channel                        Löscht den derzeitigen Channel.
+delete channeles                      Löscht alle Channel.
+delete role { @role }                 Löscht die verlinkte Rolle.
+delete roles                          Löscht alle Rollen.
+
+clear                                 Löscht alle Nachrichten in einem Channel.
+clear all                             Löscht alle Nachrichten in einem Channel.
+clear { #channel }                    Löscht alle Nachrichten in dem verlinkten Channel.
+clear { id }                          Löscht alle nachrichten in dem verlinkten Channel.
+
+edit all channels { name }            Editiert alle Channel auf den Namen.
+edit all roles { name }               Editiert alle Rollen auf den Namen.
+edit channel { #channel } { name }    Editiert den verlinkten Channel auf den Namen.
+edit role { @role } { name }          Editiert die verlinkte Rolle auf den Namen.
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests sind immer willkommen. Wenn du größere änderungen hast, erstelle bitte eine issue, damit man sich nochmal darüber unterhalten kann.
 
 ## License
 [LICENSE](https://bastianleicht.de/license)
