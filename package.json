@@ -11,7 +11,7 @@
     "url": "git+https://github.com/routerabfrage/GriefBotDiscord.git"
   },
   "author": "Bastian Leicht",
-  "license": "https://bastianleicht.de/license",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/routerabfrage/GriefBotDiscord/issues"
   },
