@@ -42,10 +42,9 @@ fs.readdir("./events/", (err, files) => {
         if (!file.endsWith(".js")) return;
         const evt = require(`./events/${file}`);
         let evtName = file.split(".")[0];
-        console.log(`Loaded event '${evtName}'`);
+        console.log(`${getDate()} | Loaded Event '${evtName}'`);
         client.on(evtName, evt.bind(null, client));
     });
-    console.log("------------------------------------------------");
 });
 
 fs.readdir("./commands/", async (err, files) => {
@@ -53,7 +52,7 @@ fs.readdir("./commands/", async (err, files) => {
         if (!file.endsWith(".js")) return;
         let props = require(`./commands/${file}`);
         let cmdName = file.split(".")[0];
-        console.log(`Loaded Command '${cmdName}'`);
+        console.log(`${getDate()} | Loaded Command '${cmdName}'`);
         client.commands.set(cmdName, props);
     });
 });
@@ -63,14 +62,13 @@ fs.readdir("./commands/authorised/", async (err, files) => {
         if (!file.endsWith(".js")) return;
         let props = require(`./commands/authorised/${file}`);
         let cmdName = file.split(".")[0];
-        console.log(`Loaded Command '${cmdName}'`);
+        console.log(`${getDate()} | Loaded Command '${cmdName}'`);
         client.commands.set(cmdName, props);
     });
-    console.log("------------------------------------------------");
 });
 
 process.on("unhandledRejection", (error) => {
-    console.error("Unhandled promise rejection:", error);
+    console.error(getDate() + " | Unhandled promise rejection:", error);
 });
 
 client.login(config.token || process.env.TOKEN);

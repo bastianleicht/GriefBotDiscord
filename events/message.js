@@ -25,7 +25,7 @@ module.exports = (client, message) => {
     if (!cmd) return;
 
     if(command !== 'auth' && getFromArray(client.initializedUsers, message.author.id) === true) {
-        console.log(client.currentDate + " | " + message.author.username + "#" + message.author.discriminator + " hat gerade den " + command + " Command genutzt!");
+        console.log(client.currentDate + " | " + message.author.username + "#" + message.author.discriminator + " hat gerade den '" + command + "' Command genutzt!");
         cmd.run(client, message, args, command);
 
     } else if(command === 'auth') {
