@@ -1,4 +1,5 @@
 .idea
 node_modules
+images/logo.psd
 config.json
 package-lock.json
