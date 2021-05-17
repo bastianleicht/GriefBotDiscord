@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/routerabfrage/GriefBotDiscord.git"
+    "url": "git+https://github.com/bastianleicht/GriefBotDiscord.git"
   },
   "bugs": {
-    "url": "https://github.com/routerabfrage/GriefBotDiscord/issues"
+    "url": "https://github.com/bastianleicht/GriefBotDiscord/issues"
   },
   "dependencies": {
     "better-sqlite3": "^7.0.1",
