@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br/>
 <p align="center">
-  <a href="https://github.com/routerabfrage/GriefBotDiscord">
+  <a href="https://github.com/bastianleicht/GriefBotDiscord">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">GriefBotDiscord</h3>
@@ -15,9 +15,9 @@
     GriefBotDiscord is a fully featured Griefing Bot with some unique Features.
     <br/>
     <br/>
-    <a href="https://github.com/routerabfrage/GriefBotDiscord/issues">Report Bug</a>
+    <a href="https://github.com/bastianleicht/GriefBotDiscord/issues">Report Bug</a>
     ·
-    <a href="https://github.com/routerabfrage/GriefBotDiscord/issues">Request Feature</a>
+    <a href="https://github.com/bastianleicht/GriefBotDiscord/issues">Request Feature</a>
   </p>
 </p>
 
@@ -68,7 +68,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/routerabfrage/GriefBotDiscord.git
+   git clone https://github.com/bastianleicht/GriefBotDiscord.git
    ```
 2. Install NPM packages
    ```sh
@@ -133,7 +133,7 @@ edit role { @role } { name }          Renames the linked Role to the specified N
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you want to help, see the [open issues](https://github.com/routerabfrage/GriefBotDiscord/issues) for a list of proposed features (and known issues).
+If you want to help, see the [open issues](https://github.com/bastianleicht/GriefBotDiscord/issues) for a list of proposed features (and known issues).
 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -158,19 +158,19 @@ Distributed under the BSD 2-Clause License. See `LICENSE` for more information.
 
 Bastian Leicht - [@bastianleicht](https://twitter.com/bastianleicht) - mail@bastianleicht.de
 
-Project Link: [https://github.com/routerabfrage/GriefBotDiscord](https://github.com/routerabfrage/GriefBotDiscord)
+Project Link: [https://github.com/bastianleicht/GriefBotDiscord](https://github.com/bastianleicht/GriefBotDiscord)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/routerabfrage/GriefBotDiscord.svg?style=for-the-badge
-[contributors-url]: https://github.com/routerabfrage/GriefBotDiscord/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/routerabfrage/GriefBotDiscord.svg?style=for-the-badge
-[forks-url]: https://github.com/routerabfrage/GriefBotDiscord/network/members
-[stars-shield]: https://img.shields.io/github/stars/routerabfrage/GriefBotDiscord.svg?style=for-the-badge
-[stars-url]: https://github.com/routerabfrage/GriefBotDiscord/stargazers
-[issues-shield]: https://img.shields.io/github/issues/routerabfrage/GriefBotDiscord.svg?style=for-the-badge
-[issues-url]: https://github.com/routerabfrage/GriefBotDiscord/issues
-[license-shield]: https://img.shields.io/github/license/routerabfrage/GriefBotDiscord.svg?style=for-the-badge
-[license-url]: https://github.com/routerabfrage/GriefBotDiscord/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/bastianleicht/GriefBotDiscord.svg?style=for-the-badge
+[contributors-url]: https://github.com/bastianleicht/GriefBotDiscord/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/bastianleicht/GriefBotDiscord.svg?style=for-the-badge
+[forks-url]: https://github.com/bastianleicht/GriefBotDiscord/network/members
+[stars-shield]: https://img.shields.io/github/stars/bastianleicht/GriefBotDiscord.svg?style=for-the-badge
+[stars-url]: https://github.com/bastianleicht/GriefBotDiscord/stargazers
+[issues-shield]: https://img.shields.io/github/issues/bastianleicht/GriefBotDiscord.svg?style=for-the-badge
+[issues-url]: https://github.com/bastianleicht/GriefBotDiscord/issues
+[license-shield]: https://img.shields.io/github/license/bastianleicht/GriefBotDiscord.svg?style=for-the-badge
+[license-url]: https://github.com/bastianleicht/GriefBotDiscord/blob/master/LICENSE.txt
