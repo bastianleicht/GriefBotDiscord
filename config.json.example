@@ -1,6 +1,6 @@
 {
   "token": "Your Token",
-  "secret": "1337"
+  "secret": "1337",
   "prefix": "!",
   "banmessage": "GET BANNED!",
   "wait": "10"
