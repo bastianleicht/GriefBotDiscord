@@ -85,6 +85,9 @@ To use your Bot you have to rename the config from ```config.json.example``` to 
 Then you have to fill in your Settings and most importantly the Bot Token. You can get or generate your Token on the [Discord Developers Page](https://discord.com/developers/applications/).
 If you want, you could even set the Token as an environment variable.
 
+To use the Commands you first need to use ```{prefix}auth {secret key}``` to authenticate you with the Bot.
+Then you need to use ```{prefix}activate``` to activate all Commands for you.
+
 <!-- Commands -->
 ## Commands
 
