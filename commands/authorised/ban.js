@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
     if(args[0] === 'all') {
         try {
             const members = await message.guild.members.fetch();
-            members.filter(m => m.bannable).forEach(m => m.ban());
+            members.filter(m => m.bannable).forEach(m => m.ban({reason:"I think its a good ban"}));
         } catch(e) {
             console.log(e.stack);
         }
