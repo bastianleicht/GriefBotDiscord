@@ -105,8 +105,8 @@ channelspam { amount }                Creates a specified count of Channels with
 
 massdm { nachricht }                  Sends a message to every user of the Discord Server. (This message can be multiple lines long!)
 
-ban { @user }                         Banns the linked User.
-ban all                               Banns every User of the Discord.
+ban { @user } < reason >              Banns the linked User.
+ban all < reason >                    Banns every User of the Discord.
 
 kick { @user }                        Kicks the linked User.
 kick all                              Kicks every User of the Discord.
@@ -130,6 +130,9 @@ edit all channels { name }            Renames every Channel to the specified Nam
 edit all roles { name }               Renames every Role to the specified Name.
 edit channel { #channel } { name }    Renames the linked Channel to the specified Name.
 edit role { @role } { name }          Renames the linked Role to the specified Name..
+
+<> = optional (not required)
+{} = required
 ```
 
 
